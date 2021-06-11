@@ -1,0 +1,40 @@
+.blog-post-banner {
+  max-height: 400px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  position: absolute;
+}
+
+body.light {
+  .blog-post-overlay {
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(254, 254, 254, 0.1) 75%,
+      rgba(250, 251, 252, 1) 90%,
+      rgba(255, 255, 255, 1) 95%
+    );
+    position: relative;
+  }
+}
+
+body.dark {
+  .blog-post-overlay {
+    height: 400px;
+    width: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(110, 115, 140, 0.2) 75%,
+      rgba(70, 75, 75, 0.6) 85%,
+      rgba(55, 60, 60, 0.8) 90%,
+      rgba(40, 45, 0, 1) 100%
+    );
+    position: relative;
+  }
+}

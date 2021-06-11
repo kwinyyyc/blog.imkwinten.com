@@ -1,0 +1,31 @@
+@import '../../styles/variables.scss';
+
+.thumbnail {
+  display: block;
+  padding-top: 24px;
+  box-shadow: none;
+  transition: text-shadow 0.3s, opacity 0.4s;
+  opacity: 0;
+
+  p {
+    font-size: 90%;
+    line-height: 1.4;
+  }
+  .thumbnail-title {
+    margin: 6px 0 12px 0;
+  }
+  .thumbnail-banner {
+    border: 2px solid lavender;
+    padding: 2px;
+    width: 100%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 180px;
+    object-fit: cover;
+    margin: 0;
+  }
+}
+
+.thumbnail.visible {
+  opacity: 1;
+}
