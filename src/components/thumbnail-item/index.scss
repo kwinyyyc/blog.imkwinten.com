@@ -2,14 +2,16 @@
 
 .thumbnail {
   display: block;
-  padding-top: 24px;
+  padding: 24px 0;
   box-shadow: none;
   transition: text-shadow 0.3s, opacity 0.4s;
   opacity: 0;
+  border-bottom: 1px solid lavender;
 
   p {
     font-size: 90%;
     line-height: 1.4;
+    margin: 0;
   }
   .thumbnail-title {
     margin: 6px 0 12px 0;
