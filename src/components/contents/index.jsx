@@ -4,13 +4,14 @@ import { ThumbnailContainer } from '../thumbnail-container'
 import { ThumbnailItem } from '../thumbnail-item'
 import { TAG_TYPE } from '../../constants'
 
-export const Contents = ({ posts, countOfInitialPost, count, tag }) => {
+export const Contents = ({ posts, countOfInitialPost, count, selectedTag }) => {
+  const [title, occurences] = selectedTag;
   const refinedPosts = useMemo(() =>
     posts
       .filter(
         ({ node }) =>
-          tag === TAG_TYPE.ALL ||
-          node.frontmatter.tags.includes(tag)
+        title === TAG_TYPE.ALL ||
+          node.frontmatter.tags.includes(title)
       )
       .slice(0, count * countOfInitialPost)
   )

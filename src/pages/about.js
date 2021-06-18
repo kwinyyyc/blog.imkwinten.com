@@ -4,8 +4,9 @@ import { graphql } from 'gatsby'
 import { rhythm } from '../utils/typography'
 import * as PageTitle from '../constants'
 import { SponsorButton } from '../components/sponsor-button'
+import { Layout } from '../layout'
 
-export default ({ data }) => {
+export default ({ data, location }) => {
   const resumes = data.allMarkdownRemark.edges
 
   const resume = resumes
@@ -18,21 +19,23 @@ export default ({ data }) => {
   const { title, comment, siteUrl, author, sponsor } = metaData
 
   return (
-    <div
-      style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(24),
-        padding: `${rhythm(0.5)} ${rhythm(3 / 4)} ${rhythm(1.5)} ${rhythm(
-          3 / 4
-        )}`,
-      }}
-    >
-      <div dangerouslySetInnerHTML={{ __html: resume.html }} />
-      {!!sponsor.buyMeACoffeeId && (
-        <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
-      )}
-    </div>
+    <Layout location={location} title={title}>
+      <div
+        style={{
+          marginLeft: `auto`,
+          marginRight: `auto`,
+          maxWidth: rhythm(24),
+          padding: `${rhythm(0.5)} ${rhythm(3 / 4)} ${rhythm(1.5)} ${rhythm(
+            3 / 4
+          )}`,
+        }}
+      >
+        <div dangerouslySetInnerHTML={{ __html: resume.html }} />
+        {!!sponsor.buyMeACoffeeId && (
+          <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
+        )}
+      </div>
+    </Layout>
   )
 }
 

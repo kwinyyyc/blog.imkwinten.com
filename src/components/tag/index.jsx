@@ -1,42 +1,35 @@
-import React, { useCallback, useRef } from 'react'
-import { rhythm } from '../../utils/typography'
-import './index.scss'
-import { Item } from './item'
+import React, { useCallback, useEffect, useRef } from 'react'
+import qs from 'query-string'
 
-export const Tag = ({ tags, tag, selectTag }) => {
-  const containerRef = useRef(null)
+export const Tag = ({ tag, scrollToCenter, selectedTag, setSelectedTag }) => {
+  const [title, occurences] = tag;
+  const tabRef = useRef(null)
 
-  const scrollToCenter = useCallback(tabRef => {
-    const { offsetWidth: tabWidth } = tabRef.current
-    const { scrollLeft, offsetWidth: containerWidth } = containerRef.current
-    const tabLeft = tabRef.current.getBoundingClientRect().left
-    const containerLeft = containerRef.current.getBoundingClientRect().left
-    const refineLeft = tabLeft - containerLeft
-    const targetScollX = scrollLeft + refineLeft - (containerWidth / 2) + (tabWidth / 2)
+  const handleClick = useCallback(() => {
+    scrollToCenter(tabRef)
+    setSelectedTag(tag)
+    window.history.pushState(
+      { tag },
+      '',
+      `${window.location.pathname}?${qs.stringify({ tag: title })}`
+    )
+  }, [tabRef])
 
-    containerRef.current.scroll({ left: targetScollX, top: 0, behavior: 'smooth' })
-  }, [containerRef])
+  useEffect(() => {
+    const [selectedTitle, selectedOccurences] = selectedTag;
+    if (selectedTitle === title) {
+      scrollToCenter(tabRef)
+    }
+  }, [selectedTag, tabRef])
 
   return (
-    <ul
-      ref={containerRef}
-      className="tag-container"
-      role="tablist"
-      id="tag"
-      style={{
-        margin: `0 -${rhythm(3 / 4)}`,
-      }}
+    <li
+      ref={tabRef}
+      className="item"
+      role="tab"
+      // aria-selected={selectedTag === title ? 'true' : 'false'}
     >
-      <Item title={'All'} selectedTag={tag} onClick={selectTag} scrollToCenter={scrollToCenter} />
-      {tags.map((title, idx) => (
-        <Item
-          key={idx}
-          title={title}
-          selectedTag={tag}
-          onClick={selectTag}
-          scrollToCenter={scrollToCenter}
-        />
-      ))}
-    </ul>
+      <div onClick={handleClick}>{`${title} ${occurences ? `(${occurences})` : ''}`}</div>
+    </li>
   )
 }
