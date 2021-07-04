@@ -55,9 +55,9 @@ https://github.com/semantic-release/release-notes-generator/issues/184
 
 Happy Automation!
 
- ![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/Marketing_Automation_GIF_by_Icomm_22553362f3)
+ ![](./Marketing_Automation_GIF_by_Icomm_22553362f3.gif)
 
-[![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/giphy_Logo_adf18bc4c9)](https://giphy.com/gifs/Icommkt-marketing-automation-icomm-gEXumk4dWhEc2UriSX)
+[![](./giphy_Logo_adf18bc4c9.png)](https://giphy.com/gifs/Icommkt-marketing-automation-icomm-gEXumk4dWhEc2UriSX)
 
 ----------
 

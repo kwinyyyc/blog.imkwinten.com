@@ -18,7 +18,7 @@ As a bridge between business people and developers, I found it most of the cases
 
 Very luckily, I found a programmer job in a software house without a lot of programming experience (with some sort of prototypes showcasing my knowledge). The first 2 months were very tough, everything was new to me, Agile methodology, programming frameworks, etc. It has been difficult but fruitful that I think I can never grow any faster. And indeed, after about 3 years now, I feel like I am stuck and without full confidence in saying I am well qualified. Hmm, yes, maybe this is Impostor Syndrome.
 
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/aleksandra_boguslawska_MS_7_KD_9_Ti7_FQ_unsplash_cb90097e58_21eaebeab9.jpeg)
+![](./aleksandra-boguslawska-MS7KD9Ti7FQ-unsplash.jpg)
 
 Photo by [Aleksandra Boguslawska](https://unsplash.com/@aleksandraboguslawska?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@aleksandraboguslawska?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
@@ -34,9 +34,9 @@ Photo by [Aleksandra Boguslawska](https://unsplash.com/@aleksandraboguslawska?ut
 ### Things we can do
 There are articles listing how to overcome the Impostor Syndrome. This article is not going to do the same, because I simply don’t have the answer, I haven’t overcome it yet.
 
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/nathan_dumlao_16mv_SZ_p_JG_p4_unsplash_c0159c0cab_18a8573ee3.jpeg)
+![](./photo-1498050108023-c5249f4df085.jpeg)
 
-Photo by [Nathan Dumlao](https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Photo by [Christopher Gower](https://unsplash.com/@cgower/?utm_source=Kwinten_Blog&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Kwinten_Blog&utm_medium=referral)
 
 Wait. What? Are you going to end this article with nothing?
 

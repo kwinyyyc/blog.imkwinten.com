@@ -124,9 +124,9 @@ heroku config:set CLOUDINARY_API_SECRET=YOUR_API_SECRET
 
 And that’s it! Enjoy!
 
-![](https://prod-imkwinten-media.s3.ap-southeast-1.amazonaws.com/drew_coffman_Dz_It_f_TY_v4_E_unsplash_491aeeae9b.jpeg)
+![](./photo-1471560090527-d1af5e4e6eb6.jpeg)
 
-Photo by [Drew Coffman](https://unsplash.com/@drewcoffman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+Photo by [Drew Coffman](https://unsplash.com/@drewcoffman/?utm_source=Kwinten_Blog&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Kwinten_Blog&utm_medium=referral)
 
 
 ----------

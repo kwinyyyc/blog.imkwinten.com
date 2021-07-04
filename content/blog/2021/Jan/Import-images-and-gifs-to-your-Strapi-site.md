@@ -28,7 +28,7 @@ yarn add strapi-plugin-zeasy-image-api
 ```
 What the zeasy image API plugin will do is to get the Rich Text editor component registered on your platform which is react-md-editor in this case and then it will re-register the Rich Text editor component with an image importing panel like below.
 
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/Strapi_Content_Manager_2021_01_02_17_10_31_4355fd31b1.png)
+![](./Strapi_Content_Manager_2021_01_02_17_10_31_4355fd31b1.png)
 
 > Note: Strapi is registering your plugin fields in an alphabetical order, so if your Rich Text Editor plugin named anything before `strapi-plugin-"z"` the zeasy image API plugin would be able to re-register your component.
 
@@ -42,19 +42,19 @@ In the next step you have to create an app on each platform, the process is very
 2. Click `New Application`.
 3. Read and accept the terms.
 4. Fill in the information below.
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/New_API_Application_Unsplash_2021_01_02_17_50_13_f746c3655e.png)
+![](./New_API_Application_Unsplash_2021_01_02_17_50_13_f746c3655e.png)
 5. Scroll down and get your `Access Key`
 
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/app2_Unsplash_2021_01_02_17_53_02_046f12139a.png)
+![](./app2_Unsplash_2021_01_02_17_53_02_046f12139a.png)
 
 #### Register an app on Giphy
 1. After logged in, click `Create an app`
 2. Click `Select API`
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/GIPHY_for_Developers_Your_Dashboard_2021_01_02_17_42_41_05e1661a39.png)
+![](./GIPHY_for_Developers_Your_Dashboard_2021_01_02_17_42_41_05e1661a39.png)
 3. Fill in the information below and confirm the terms.
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/GIPHY_for_Developers_Your_Dashboard_2021_01_02_17_42_59_cd5864c3f2.png)
-4. Get your API key
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/GIPHY_for_Developers_Your_Dashboard_2021_01_02_17_57_09_b08ebe4807.png)
+![](./GIPHY_for_Developers_Your_Dashboard_2021_01_02_17_42_59_cd5864c3f2.png)
+1. Get your API key
+![](./GIPHY_for_Developers_Your_Dashboard_2021_01_02_17_57_09_b08ebe4807.png)
 
 
 The last step is to update your `config\plugins.js` in your Strapi application and add below section.
@@ -79,9 +79,9 @@ That's it! Make sure you added environment variables `UNSPLASH_APP_NAME`, `UNSPL
 
 Thanks for following along!
 
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/got_talent_bra_GIF_by_TV_4_7114b31d06)
+![](./got_talent_bra_GIF_by_TV_4_7114b31d06.gif)
 
-[![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/giphy_Logo_adf18bc4c9)](https://giphy.com/gifs/tv4-got-talent-talang-talangse-ygx6guQZ3kxF8A80bC)
+[![](giphy_Logo_adf18bc4c9./../giphy_Logo_adf18bc4c9.png)](https://giphy.com/gifs/tv4-got-talent-talang-talangse-ygx6guQZ3kxF8A80bC)
 
 ----------
 

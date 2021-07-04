@@ -23,7 +23,7 @@ If you want to check out the result, you can have a look on this [repository](ht
 
 ## Let's get started!
 
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/Summer_in_Paphos_e696d0b394.jpeg) Photo by [Natalya Zaritskaya](https://unsplash.com/@goodmood77/?utm_source=Kwinten_Blog&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Kwinten_Blog&utm_medium=referral)
+![](./0_29_HnJ4kwZt8cDco.jpeg) Photo by [Natalya Zaritskaya](https://unsplash.com/@goodmood77/?utm_source=Kwinten_Blog&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Kwinten_Blog&utm_medium=referral)
 
 ### Approach 1: Deploying the node_modules and bundled js functions to AWS Lambda
 
@@ -33,7 +33,7 @@ Webpack would bundle only the dependencies between files (with the loaders confi
 
 #### Bundled files
 
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/serverless_webpack_bundle_approach_1_0bcea3b6e1.png)
+![](./serverless_webpack_bundle_approach_1_0bcea3b6e1.png)
 
 #### Steps
 
@@ -100,7 +100,7 @@ Webpack will perform tree-shaking and all required dependencies are bundled in t
 
 #### Bundled files
 
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/serverless_webpack_bundle_approach_2_acf3248322.png)
+![](./serverless_webpack_bundle_approach_2_acf3248322.png)
 
 #### Steps
 
@@ -154,7 +154,7 @@ With this approach, you can do further optimization using [AWS Lambda Layers](ht
 
 #### Bundled files
 
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/serverless_webpack_bundle_approach_3_33bc4865a8.png)
+![](./serverless_webpack_bundle_approach_3_33bc4865a8.png)
 
 #### Steps
 
@@ -208,8 +208,8 @@ module.exports = {
 Here is an article that explains in detail with examples on these approaches, suggest checking it out.
 https://nordcloud.com/minimizing-aws-lambda-deployment-package-size-in-typescript/
 
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/b26a7faa_a080_449c_ac5c_113c3cd7ca50_6d0640a091.jpeg) Photo by [Kinga Cichewicz](https://unsplash.com/@all_who_wander/?utm_source=Kwinten_Blog&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Kwinten_Blog&utm_medium=referral)
+![](./0_RS5cTL5kZa4HYMIF.jpeg) Photo by [Kinga Cichewicz](https://unsplash.com/@all_who_wander/?utm_source=Kwinten_Blog&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Kwinten_Blog&utm_medium=referral)
 
 ---
 
-_This article [originally posted](https://blog.imkwinten.com/article/Using-Serverless-framework-and-Webpack-to-build-AWS-Lambda-in-TypeScript?utm_source=medium&utm_medium=referral) on [my personal blog](https://blog.imkwinten.com/?utm_source=medium&utm_medium=referral) where I shared different topics including Node.js, Cloud computing, and other interesting stuff._
+*This article [originally posted](https://blog.imkwinten.com/article/Using-Serverless-framework-and-Webpack-to-build-AWS-Lambda-in-TypeScript?utm_source=medium&utm_medium=referral) on [my personal blog](https://blog.imkwinten.com/?utm_source=medium&utm_medium=referral) where I shared different topics including Node.js, Cloud computing, and other interesting stuff.*

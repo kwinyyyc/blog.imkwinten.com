@@ -10,8 +10,6 @@ status: draft
 
 ![](./psm-1-versus-pmi-acp.png)
 
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/Laptop_and_notepad_b9047375cd.jpeg) Photo by [Nick Morrison](https://unsplash.com/@nickmorrison/?utm_source=Kwinten_Blog&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Kwinten_Blog&utm_medium=referral)
-
 ## Background
 I am a software developer who has been working on Agile software development. There are a lot of scenarios that bring me to the questions - `Am I doing the right thing? Is it what we supposed to do according to the agile principles?` 
 
@@ -85,7 +83,9 @@ After a period of time, you may find it does not explain a lot of situations. An
 I would suggest you go for PSM I if you just start with Agile or if you are a developer that wants to get some basic understanding of Scrum.  On the other hand, if you are experienced in Agile and would like to go further on learning about the know-how, I would suggest you go for PMI-ACP.
 
 #### Good luck on the examination!
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/Lucky_Lunch_Stroll_ce8140965e.jpeg) Photo by [Amy Reed](https://unsplash.com/@amybethreed/?utm_source=Kwinten_Blog&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Kwinten_Blog&utm_medium=referral)
+![](./photo-1507667895043-c4de59dda180.jpeg) 
+
+Photo by [Amy Reed](https://unsplash.com/@amybethreed/?utm_source=Kwinten_Blog&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Kwinten_Blog&utm_medium=referral)
 
 ----------
 

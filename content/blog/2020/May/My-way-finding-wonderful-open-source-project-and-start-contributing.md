@@ -34,7 +34,7 @@ Recently, I have been exploring **Strapi**, they basically fit all the criteria 
 
 And after a while (**Not long actually!**), the Strapi team gets in touch with me and we talked a few things, which was very joyful. Again, thanks [Strapi team sharing my story](https://strapi.io/blog/kwinten-open-source-community) on their platform, it is a cool project to check out if you haven't done so!
 
-![](https://prod-imkwinten-media.s3.ap-southeast-1.amazonaws.com/andriyko_podilnyk_DF_s_r_DCH_ibs_unsplash_01f77263d2.jpeg)
+![](./andriyko_podilnyk_DF_s_r_DCH_ibs_unsplash_01f77263d2.jpeg)
 
 Photo by [Andriyko Podilnyk](https://unsplash.com/@yirage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/get-started?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 

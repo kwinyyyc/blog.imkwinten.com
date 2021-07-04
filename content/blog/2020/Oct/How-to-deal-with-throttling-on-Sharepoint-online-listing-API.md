@@ -29,7 +29,7 @@ Microsoft claims that this threshold is not adjustable due to the fact that Shar
 
 There are several ways we can "avoid" the issue and we are going to discuss them now! Let's get started!
 
-![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/a98d3f88_7976_4bb8_a2e2_e263e33c0fee_bd86cc158b) Photo by [Armand Khoury](https://unsplash.com/@armand_khoury/?utm_source=Kwinten_Blog&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Kwinten_Blog&utm_medium=referral)
+![](./0_OEwvw3yjQ2DJrdX1.jpeg) Photo by [Armand Khoury](https://unsplash.com/@armand_khoury/?utm_source=Kwinten_Blog&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Kwinten_Blog&utm_medium=referral)
 
 ### Method 1. Use pagination (given no needed for filtering and ordering)
 
@@ -106,7 +106,6 @@ Once you've got all the data in your backend, then you can sort and paginate the
 
 That's it for this sharing, happy coding!
 
- ![](https://prod-blog-imkwinten-media-files.s3.ap-northeast-2.amazonaws.com/Lighthouse_in_Podersdorf_am_See_Austria_9a69b89197.) Photo by [Dimitry Anikin](https://unsplash.com/@anikinearthwalker/?utm_source=Kwinten_Blog&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Kwinten_Blog&utm_medium=referral)
 
 ----------
 
