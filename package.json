@@ -33,7 +33,6 @@
     "intersection-observer": "^0.5.1",
     "katex": "^0.11.1",
     "lodash": "^4.17.19",
-    "node-sass": "^4.14.0",
     "prismjs": "^1.23.0",
     "query-string": "^6.13.1",
     "react": "^16.8.1",
@@ -42,6 +41,7 @@
     "react-helmet": "^5.2.0",
     "react-switch": "^5.0.0",
     "react-typography": "^0.16.13",
+    "sass": "^1.77.2",
     "smooth-scroll": "^16.0.0",
     "smoothscroll-polyfill": "^0.4.4",
     "typeface-catamaran": "0.0.54",
@@ -74,7 +74,6 @@
   },
   "scripts": {
     "post": "gatsby-post-gen",
-    "dev": "gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "develop": "gatsby develop",
